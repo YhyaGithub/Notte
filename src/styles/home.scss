@@ -2,20 +2,29 @@
 
 main {
 	display: grid;
-	place-items: center;
-	margin-top: 35vh;
+	place-items: left;
+	margin-top: 2rem;
+	p,
+	h1 {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
 
 	button {
+		position: absolute;
+		width: 100%;
 		font-weight: 700;
-		border: white solid 3px;
+		border: $button-color solid 3px;
+		background-color: $button-color;
 		border-radius: 1rem;
 		padding: 1rem;
-		margin-top: 2rem;
-    transition: background-color 0.4s,  color 0.4s;
+		bottom: 1rem;
+		transition: background-color 0.4s, color 0.4s;
 
-		&:active, &:hover {
-			background-color: white;
-			color: $background-color;
-    }
+		&:active,
+		&:hover {
+			background-color: transparent;
+			color: $button-color;
+		}
 	}
 }
