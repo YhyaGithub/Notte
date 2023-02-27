@@ -5,5 +5,5 @@
 <main>
 	<h1>Notte</h1>
 	<p>write, read and edit notes on any device using notte.</p>
-	<a href="#">Get Started</a>
+	<a href="/create">Get Started</a>
 </main>

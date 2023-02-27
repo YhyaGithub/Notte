@@ -1,0 +1,21 @@
+@use './colors.scss' as *;
+
+div {
+	display: grid;
+	gap: 1rem;
+	margin: 2rem;
+
+	h1 {
+		place-self: center;
+	}
+
+	input,
+	textarea {
+		border: $button-color solid 1px;
+		padding: 2px;
+	}
+
+	*:focus {
+		outline: none;
+	}
+}
