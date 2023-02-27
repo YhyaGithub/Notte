@@ -2,23 +2,19 @@
 
 main {
 	display: grid;
-	place-items: left;
-	margin-top: 2rem;
-	p,
-	h1 {
-		margin-left: 2rem;
-		margin-right: 2rem;
-	}
-
-	button {
-		position: absolute;
-		width: 100%;
+	place-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+  button {
 		font-weight: 700;
+		width: 59%;
 		border: $button-color solid 3px;
 		background-color: $button-color;
 		border-radius: 1rem;
 		padding: 1rem;
-		bottom: 1rem;
 		transition: background-color 0.4s, color 0.4s;
 
 		&:active,
